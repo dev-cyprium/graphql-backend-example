@@ -3,5 +3,42 @@
     "id": "jBWMVGjm50l6LGwepDoty",
     "username": "dev-cyprium"
   },
-  "pet": []
+  "pet": [
+    {
+      "id": "sKaBUSvU3TCwcXjo3_S7d",
+      "createdAt": 1616292202150,
+      "type": "CAT",
+      "name": "Chris"
+    },
+    {
+      "id": "Lzf_CDWw7dBZA20Nsu5MY",
+      "createdAt": 1616292202151,
+      "type": "CAT",
+      "name": "Gigles"
+    },
+    {
+      "id": "4H6Ckm1hUWVxdTnkrJlG2",
+      "createdAt": 1616292202167,
+      "type": "CAT",
+      "name": "Wafle"
+    },
+    {
+      "id": "axT6cfdwYla9ehC6w-gw8",
+      "createdAt": 1616292202167,
+      "type": "DOG",
+      "name": "Lily"
+    },
+    {
+      "id": "OFmeQMipKL4ulKru4tet1",
+      "createdAt": 1616292202167,
+      "type": "DOG",
+      "name": "Orley"
+    },
+    {
+      "id": "BE70V_iyiA1jvkGqUo2C1",
+      "createdAt": 1616292202167,
+      "type": "RABBIT",
+      "name": "Baby"
+    }
+  ]
 }

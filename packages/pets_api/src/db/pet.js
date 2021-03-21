@@ -1,4 +1,4 @@
-const nanoid = require("nanoid");
+const { nanoid } = require("nanoid");
 
 const createPetModel = (db) => {
   return {
@@ -11,6 +11,7 @@ const createPetModel = (db) => {
     },
 
     create(pet) {
+      console.log("CREATING PET: ", pet);
       const newPet = { id: nanoid(), createdAt: Date.now(), ...pet };
 
       db.get("pet").push(newPet).write();
