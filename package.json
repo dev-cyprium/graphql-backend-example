@@ -1,13 +1,13 @@
 {
-  "dependencies": {
-    "apollo-server": "^2.21.2",
-    "graphql": "^15.5.0",
-    "graphql-tag": "^2.11.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
+  "name": "@httpstef/pets-fullstack",
   "scripts": {
-    "start:dev": "nodemon server.js"
+    "start:dev": "lerna run --stream --scope @httpstef/pets_api start:dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
